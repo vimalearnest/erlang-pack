@@ -1,7 +1,7 @@
 erlang-pack
 =========
 
-A erlang environment.
+A erlang environment based on http://www.lambdacat.com/post-modern-emacs-setup-for-erlang/.
 
 # install
 
