@@ -22,4 +22,6 @@
       ;; ... but I only tested it on Mac OS X.
       (car (split-string (shell-command-to-string "hostname"))))))
 
-
+;; (require 'company-distel)
+;; (with-eval-after-load 'company
+;;   (add-to-list 'company-backends 'company-distel))

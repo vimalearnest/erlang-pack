@@ -7,12 +7,12 @@
 (setq erlang-man-root-dir "/Users/vimalearnest/erlang/curr/man")
 (require 'erlang-start)
 
-(add-hook 'after-init-hook 'global-company-mode)
+;(add-hook 'after-init-hook 'global-company-mode)
 
 (add-hook 'erlang-mode-hook
           (lambda ()
             (flycheck-select-checker 'erlang-otp)
-	    (flycheck-tip-use-timer 'verbose)
             (flycheck-mode)
+            (flycheck-pos-tip-mode)
 	    (cscope-minor-mode)
             (setq company-backends '(company-distel))))
