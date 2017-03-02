@@ -15,4 +15,5 @@
             (flycheck-mode)
             (flycheck-pos-tip-mode)
 	    (cscope-minor-mode)
+            (auto-complete-mode)
             (setq company-backends '(company-distel))))
