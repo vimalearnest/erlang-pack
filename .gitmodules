@@ -1,9 +1,6 @@
 [submodule "vendor/submodules/distel"]
 	path = vendor/submodules/distel
 	url = git@github.com:massemanet/distel.git
-[submodule "vendor/submodules/company-mode"]
-	path = vendor/submodules/company-mode
-	url = git@github.com:company-mode/company-mode.git
 [submodule "vendor/submodules/distel-completion"]
 	path = vendor/submodules/distel-completion
 	url = git@github.com:sebastiw/distel-completion.git

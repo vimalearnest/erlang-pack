@@ -7,8 +7,6 @@
 (setq erlang-man-root-dir "/Users/vimalearnest/erlang/curr/man")
 (require 'erlang-start)
 
-;(add-hook 'after-init-hook 'global-company-mode)
-
 (add-hook 'erlang-mode-hook
           (lambda ()
             (flycheck-select-checker 'erlang-otp)
@@ -17,5 +15,4 @@
               (flycheck-pos-tip-mode)
               (flycheck-popup-tip-mode))
 	    (cscope-minor-mode)
-            (auto-complete-mode)
-            (setq company-backends '(company-distel))))
+            (auto-complete-mode)))
