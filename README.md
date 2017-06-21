@@ -9,3 +9,16 @@ In your `.emacs-live.el` add this snippet:
 ```elisp
 (live-add-packs '("/path/to/erlang-pack"))
 ```
+
+Syntax highlighting, lint and autocomplete, the packages we need are:
+
+erlang-mode, it should be in your Erlang install
+distel
+popup
+company
+pos-tip
+flycheck
+flycheck-popup-tip (for terminal)
+flycheck-pos-tip (for GUI)
+company-distel
+

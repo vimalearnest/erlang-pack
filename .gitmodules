@@ -10,9 +10,9 @@
 [submodule "vendor/submodules/flycheck"]
 	path = vendor/submodules/flycheck
 	url = git@github.com:flycheck/flycheck.git
-[submodule "vendor/submodules/flycheck-tip"]
-	path = vendor/submodules/flycheck-tip
-	url = git@github.com:yuutayamada/flycheck-tip.git
 [submodule "vendor/submodules/flycheck-pos-tip"]
 	path = vendor/submodules/flycheck-pos-tip
 	url = git@github.com:flycheck/flycheck-pos-tip.git
+[submodule "vendor/submodules/flycheck-popup-tip"]
+	path = vendor/submodules/flycheck-popup-tip
+	url = git@github.com:flycheck/flycheck-popup-tip.git

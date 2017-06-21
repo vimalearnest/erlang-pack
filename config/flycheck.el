@@ -1,9 +1,9 @@
 (live-add-pack-lib "flycheck")
-(live-add-pack-lib "flycheck-tip")
 (live-add-pack-lib "flycheck-pos-tip")
+(live-add-pack-lib "flycheck-popup-tip")
 
 (require 'flycheck)
-(require 'flycheck-tip)
+(require 'flycheck-popup-tip)
 (require 'flycheck-pos-tip)
 
 (flycheck-define-checker erlang-otp
@@ -14,4 +14,5 @@
   :modes 'erlang-mode
   :error-patterns
          ((warning line-start (file-name) ":" line ": Warning:" (message) line-end)
-         (error line-start (file-name) ":" line ": " (message) line-end)))
+          (error line-start (file-name) ":" line ": " (message) line-end)))
+
