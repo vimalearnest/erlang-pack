@@ -1,5 +1,5 @@
 erlang-pack
-=========
+===========
 
 A erlang environment providing 
 
@@ -10,6 +10,13 @@ A erlang environment providing
 
 # Install
 
+Once you clone the repo, go to the repo directory
+
+```bash
+$ git submodule init
+$ git submodule update
+```
+
 In your `.emacs-live.el` add this snippet:
 ```elisp
 (live-add-packs '("/path/to/erlang-pack"))
@@ -18,7 +25,6 @@ In your `.emacs-live.el` add this snippet:
 # Configuration
 
 Update your erlang installation path [here](https://github.com/vimalearnest/erlang-pack/blob/master/init.el)
-
 
 # Usage
 
